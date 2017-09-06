@@ -10,7 +10,7 @@ services:
 
 install:
   - cd $TRAVIS_BUILD_DIR
-  - cd src
+  - cd  src
   - npm install
 
 before_script:
